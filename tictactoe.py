@@ -142,6 +142,7 @@ class tictactoe:
         
     # Here -- ** Run all the function **
     def game(self):
+        #To run 5 times 
         while self.gamerunning != 5:
             self.siri()
             time.sleep(0.4)
@@ -154,7 +155,6 @@ class tictactoe:
 
 
 if __name__ == "__main__":
-    
     play = tictactoe(['-','-','-',
                       '-','-','-',
                       '-','-','-'],
